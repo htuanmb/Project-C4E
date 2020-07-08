@@ -66,30 +66,67 @@
 
       <div class="container">
         <div class="row align-items-center">
-          
+
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black mb-0">Gaming<span class="text-primary">.</span> </a></h1>
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black mb-0">Gaming<span
+                  class="text-primary">.</span> </a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#home-section" class="nav-link">Trang chủ</a></li>
-                <li><a href="#products-section" class="nav-link">Sản phẩm</a></li>
-                <li><a href="#special-section" class="nav-link">Đặc biệt</a></li>
-                <li><a href="#testimonials-section" class="nav-link">Feedbacks</a></li>
-                <li><a href="#blog-section" class="nav-link">Tin tức</a></li>
-                <li><a href="#contact-section" class="nav-link">Liên hệ</a></li>
+                <li><a href="./index.html#home-section" class="nav-link">Trang chủ</a></li>
+                <li><a href="sp-laptop.html" class="nav-link">Sản phẩm</a></li>
+                <li><a href="./index.html#special-section" class="nav-link">Đặc biệt</a></li>
+                <li><a href="./index.html#testimonials-section" class="nav-link">Feedbacks</a></li>
+                <li><a href="./index.html#blog-section" class="nav-link">Tin tức</a></li>
+                <li><a href="./index.html#contact-section" class="nav-link">Liên hệ</a></li>
+                <li>
+                  <button id="cart">
+                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                    Giỏ Hàng
+                  </button>
+                </li>
               </ul>
+              <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Giỏ Hàng</h5>
+                    <span class="close">&times;</span>
+                  </div>
+                  <div class="modal-body">
+                    <div class="cart-row">
+                      <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                      <span class="cart-price cart-header cart-column">Giá</span>
+                      <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                    </div>
+                    <div class="cart-items">
+
+
+                    </div>
+                    <div class="cart-total">
+                      <strong class="cart-total-title">Tổng Cộng:</strong>
+                      <span class="cart-total-price">0VNĐ</span>
+                    </div>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                    <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                  </div>
+                </div>
+              </div>
             </nav>
           </div>
 
 
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#"
+              class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
+          </div>
 
         </div>
       </div>
-      
+
     </header>
 
   
@@ -132,10 +169,13 @@
                 <img src="images/model_1_bg.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="px-4">
-                <h3><a href="#">Alienware M17x</a></h3>
-                
+                <h3 class="content-product-h3"><a href="#">Alienware M17x</a></h3>
+
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                <div>
+                <div class="content-product-deltals">
+                  <div class="price">
+                    <span class="money" style="font-size: 20px;color: black;">49.990.000đ</span>
+                  </div>
                   <a href="#" class="btn btn-black mr-1 rounded-0">Mua</a>
                   <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Xem</a>
                 </div>
@@ -149,8 +189,8 @@
                 <img src="images/model_2_bg.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="px-4">
-                <h3><a href="#">Asus Scar III</a></h3>
-                
+                <h3 class="content-product-h3"><a href="#">Asus Scar III</a></h3>
+
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                 <div>
                   <a href="#" class="btn btn-black mr-1 rounded-0">Mua</a>
@@ -217,8 +257,8 @@
                 <img src="images/product_1_bg.png" alt="Image" class="img-fluid">
               </figure>
               <div class="px-4">
-                <h3><a href="#">Lenovo Y540</a></h3>
-                
+                <h3 class="content-product-h3"><a href="#">Lenovo Y540</a></h3>
+
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                 <div>
                   <a href="#" class="btn btn-black mr-1 rounded-0">Mua</a>
@@ -227,6 +267,7 @@
               </div>
             </div>
           </div>
+
 
           <p><a href="sp-laptop.html">Xem thêm...</a></p>
 
