@@ -315,14 +315,14 @@ for (var i = 0; i < quantity_input.length; i++) {
   })
 }
 // Thêm vào giỏ
-var add_cart = document.getElementsByClassName("btn-cart");
+var add_cart = document.getElementsByClassName( "btn-black ")
 for (var i = 0; i < add_cart.length; i++) {
   var add = add_cart[i];
   add.addEventListener("click", function (event) {
 
     var button = event.target;
     var product = button.parentElement.parentElement;
-    var img = product.parentElement.getElementsByClassName("img-prd")[0].src
+    var img = product.parentElement.getElementsByClassName("img-fluid")[0].src
     var title = product.getElementsByClassName("content-product-h3")[0].innerText
     var price = product.getElementsByClassName("price")[0].innerText
     addItemToCart(title, price, img)
