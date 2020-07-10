@@ -26,6 +26,7 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -110,15 +111,22 @@
 
                     </div>
                     <div class="cart-total">
-                      <strong class="cart-total-title">Tổng Cộng:</strong>
-                      <span class="cart-total-price">0VNĐ</span>
+                      <strong class="cart-total-title ">Tổng Cộng:</strong>
+                      <span class="cart-total-price ">0VNĐ</span>
+                      <h6 class="cart-column"></h6>
                     </div>
                   </div>
-
+                  <form class="modal-info" id="modal-infor">
+                     <input id="firstName" type="text"  placeholder="Input FirstName" name="firstname"><br>
+                     <input id="lastName" type="text" placeholder="Input LastName" name="lastname"><br>
+                    <input id="Email" type="email" placeholder="Input Email" required name="email"><br>
+                    <input id="Date" type="date" name="birthday"><br>
+                  </form>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary close-footer">Đóng</button>
                     <button type="button" class="btn btn-primary order">Thanh Toán</button>
                   </div>
+                  
                 </div>
               </div>
             </nav>
@@ -152,9 +160,8 @@
                   <div class="price">
                     <span class="money" style="font-size: 20px;color: black;">6.990.000đ</span>
                   </div>
-                  <button href="#" type="button" class="btn btn-black mr-1 rounded-0">Mua</button>
-                  <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Xem</a>
-
+                  <a href="#" type="button" class="btn btn-black mr-1 rounded-0">Mua</a>
+                  <a href="index.html" class="btn btn-black btn-outline-black ml-1 rounded-0">Xem</a>
                 </div>
               </div>
             </div>
@@ -174,7 +181,7 @@
                     <span class="money" style="font-size: 20px;color: black;">8.990.000đ</span>
                   </div>
                   <button href="#" type="button" class="btn btn-black mr-1 rounded-0">Mua</button>
-                  <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Xem</a>
+                  <a href="index.html" class="btn btn-black btn-outline-black ml-1 rounded-0">Xem</a>
                 </div>
               </div>
             </div>
@@ -269,7 +276,10 @@
                 <h3 class="content-product-h3"><a href="#">Alienware M17x</a></h3>
 
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                <div>
+                <div class="content-product-deltals">
+                  <div class="price">
+                    <span class="money" style="font-size: 20px;color: black;">49.990.000đ</span>
+                  </div>
                   <a href="#" class="btn btn-black mr-1 rounded-0">Mua</a>
                   <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Xem</a>
                 </div>
@@ -287,7 +297,10 @@
                 <h3 class="content-product-h3"><a href="#">Asus Scar III</a></h3>
 
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                <div>
+                <div class="content-product-deltals">
+                  <div class="price">
+                    <span class="money" style="font-size: 20px;color: black;">45,990,000</span>
+                  </div>
                   <a href="#" class="btn btn-black mr-1 rounded-0">Mua</a>
                   <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Xem</a>
                 </div>
@@ -304,7 +317,10 @@
                 <h3 class="content-product-h3"><a href="#">Hp Pavilion Gaming</a></h3>
 
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                <div>
+                <div class="content-product-deltals">
+                  <div class="price">
+                    <span class="money" style="font-size: 20px;color: black;">27.490.000đ</span>
+                  </div>
                   <a href="#" class="btn btn-black mr-1 rounded-0">Mua</a>
                   <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Xem</a>
                 </div>
@@ -321,7 +337,10 @@
                 <h3 class="content-product-h3"><a href="#">Acer Nitro 5</a></h3>
 
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                <div>
+                <div class="content-product-deltals">
+                  <div class="price">
+                    <span class="money" style="font-size: 20px;color: black;">28.990.000đ</span>
+                  </div>
                   <a href="#" class="btn btn-black mr-1 rounded-0">Mua</a>
                   <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Xem</a>
                 </div>
@@ -338,7 +357,10 @@
                 <h3 class="content-product-h3"><a href="#">Msi GP62M</a></h3>
 
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                <div>
+                <div class="content-product-deltals">
+                  <div class="price">
+                    <span class="money" style="font-size: 20px;color: black;">26.990.000đ</span>
+                  </div>
                   <a href="#" class="btn btn-black mr-1 rounded-0">Mua</a>
                   <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Xem</a>
                 </div>
@@ -355,7 +377,10 @@
                 <h3 class="content-product-h3"><a href="#">Lenovo Y540</a></h3>
 
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                <div>
+                <div class="content-product-deltals">
+                  <div class="price">
+                    <span class="money" style="font-size: 20px;color: black;">26.990.000đ</span>
+                  </div>
                   <a href="#" class="btn btn-black mr-1 rounded-0">Mua</a>
                   <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Xem</a>
                 </div>
@@ -401,10 +426,17 @@
           </div>
           <div class="col-md-3 ml-auto">
             <h2 class="footer-heading mb-4">Sản phẩm gợi ý</h2>
-            <a href="#"><img src="images/product_1_bg.png" alt="Image" class="img-fluid mb-3"></a>
-            <h4 class="h5">Lenovo Y540</h4>
-            <strong class="text-black mb-3 d-inline-block">19.990.000</strong>
-            <p><a href="#" class="btn btn-black rounded-0">Thêm vào giỏ</a></p>
+            <a href="#"><img src="images/product_1_bg.png" alt="Image" class="img-fluid "></a>
+
+            <h4 class="h5 content-product-h3">Lenovo Y540</h4>
+
+            <div class="content-product-deltals">
+              <div class="price">
+                <strong class="text-black mb-3 d-inline-block">19.990.000</strong>
+              </div>
+              <p><a href="#" class="btn btn-black rounded-0">Thêm vào giỏ</a></p>
+            </div>
+
           </div>
         </div>
         <div class="row pt-5 mt-5 text-center">
@@ -433,8 +465,9 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
   <script src="js/main.js"></script>
-
+  
 </body>
 
 </html>
