@@ -2099,3 +2099,21 @@ font-weight: 500;
 .content-product .content-product-deltals .btn-cart:hover {
 background: #c7b200;
 }
+.modal-info{
+  /* max-width: 600px; */
+  margin: 0 auto;
+  width: 440px
+}
+.modal-info input {
+  /* margin-right: 500%; */
+  margin-bottom: 10px;
+}
+input {
+  margin-left: 10px;
+
+  width: 100%;
+}
+.error{
+  outline: 1px solid red;
+  border: #000 solid 1px;
+} 
