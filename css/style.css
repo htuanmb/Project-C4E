@@ -638,7 +638,8 @@ h1, h2, h3, h4, h5,
   font-size: 22px;
   color: #fff;
   padding-left: 30px;
-  padding-right: 30px; }
+  padding-right: 30px;
+ }
   .site-block-subscribe .form-control::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: rgba(255, 255, 255, 0.5);
@@ -1990,6 +1991,7 @@ background-color: #EB5757;
 border: none;
 border-radius: .3em;
 font-weight: bold;
+margin-bottom: 10px;
 }
 
 .btn-danger:hover {
@@ -2110,7 +2112,7 @@ background: #c7b200;
 }
 input {
   margin-left: 10px;
-
+  margin: 10px;
   width: 100%;
 }
 .error{
